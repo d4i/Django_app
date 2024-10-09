@@ -2,18 +2,18 @@
 
 How to run the app?
 1. Clone the repository:
-   git clone https://github.com/yourusername/Django_app.git
+   git clone https://github.com/yourusername/Django_app.git ,
    cd Django_app
 
 2. Create a virtual environment and activate it:
-    run the below command in cmd
-     python -m venv env
+    run the below command in cmd: 
+     python -m venv env ,
      .\env\Scripts\activate
 
 3. Install the required packages:
-     pip install -r requirements.txt
-4. Start the django development server
-     python manage.py runserver 0.0.0.0:8000
+     'pip install -r requirements.txt'
+4. Start the django development server:
+     'python manage.py runserver 0.0.0.0:8000'
 5. http://13.60.167.87:8000
 
 6. Access specific pages:
