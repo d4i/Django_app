@@ -128,8 +128,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 INSTALLED_APPS += ['storages']
 
-AWS_ACCESS_KEY_ID = 'AKIAYQYUASXKNFWGXJ6A'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = 'access key'
+AWS_SECRET_ACCESS_KEY = 'secret access key'
 AWS_STORAGE_BUCKET_NAME = 'd4ibucket'
 
 DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
