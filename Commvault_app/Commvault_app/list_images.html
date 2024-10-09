@@ -1,0 +1,6 @@
+<h1>Images in S3 Bucket</h1>
+<ul>
+    {% for image in images %}
+        <li><a href="https://d4ibucket.s3.amazonaws.com/{{ image.Key }}">{{ image.Key }}</a></li>
+    {% endfor %}
+</ul>
